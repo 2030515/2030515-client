@@ -1,3 +1,4 @@
+:: в разработке
 :newins
 net stop anydesk
 rd %programdata%\anydesk /q /s
