@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>5.0</version>
-    <date>2020-06-21T14:25:35Z</date>
+    <date>2020-06-21T14:34:08Z</date>
     <groups>
         <group>
             <name>2030515/Windows Desktop physical</name>
@@ -12,19 +12,15 @@
     </groups>
     <templates>
         <template>
-            <template>2030515 - windows hardware monitor</template>
-            <name>2030515 - windows hardware monitor</name>
+            <template>2030515 - Windows hardware monitor</template>
+            <name>2030515 - Windows hardware monitor</name>
             <description>Необходимы компоненты:&#13;
 smartmontools (прописать Path до \bin)&#13;
 OpenHardwareMonitor (как сервис через NSSM). Замечена особенность - с версией 0.9.5 не работает, с 0.8.0. все нормально.&#13;
 &#13;
 Необходимые скрипты:&#13;
-c:\2030515\scripts\\zabbix.windows.hdd.ps1&#13;
-c:\2030515\scripts\\zabbix.windows.hard.ps1&#13;
-&#13;
-Необходимо ПО&#13;
-- smartmontools, установлено в папку по умолчанию, подпапка \bin добавлена в переменную path&#13;
-- Установленная через nssm служба OpenHardwareMonitor&#13;
+c:\2030515\scripts\zabbix.windows.hdd.ps1&#13;
+c:\2030515\scripts\zabbix.windows.hard.ps1&#13;
 &#13;
 Необходим в конфиге заббикса юзерпараметр&#13;
 UserParameter=2030515-ps1[*],powershell c:\2030515\scripts\zabbix.windows.$1.ps1 &quot;$2&quot; &quot;$3&quot;</description>
@@ -69,7 +65,7 @@ UserParameter=2030515-ps1[*],powershell c:\2030515\scripts\zabbix.windows.$1.ps1
                 <discovery_rule>
                     <name>Обнаружение кулеров</name>
                     <key>2030515-ps1[hard,discovery,fan]</key>
-                    <delay>2m</delay>
+                    <delay>2h</delay>
                     <lifetime>3d</lifetime>
                     <item_prototypes>
                         <item_prototype>
@@ -94,7 +90,7 @@ UserParameter=2030515-ps1[*],powershell c:\2030515\scripts\zabbix.windows.$1.ps1
                 <discovery_rule>
                     <name>Обнаружение датчиков температур</name>
                     <key>2030515-ps1[hard,discovery,temperature]</key>
-                    <delay>2m</delay>
+                    <delay>2h</delay>
                     <lifetime>3d</lifetime>
                     <item_prototypes>
                         <item_prototype>
@@ -128,7 +124,7 @@ UserParameter=2030515-ps1[*],powershell c:\2030515\scripts\zabbix.windows.$1.ps1
                                 <graph_item>
                                     <color>199C0D</color>
                                     <item>
-                                        <host>2030515 - windows hardware monitor</host>
+                                        <host>2030515 - Windows hardware monitor</host>
                                         <key>2030515-ps1[hard,{#ID},temperature]</key>
                                     </item>
                                 </graph_item>
@@ -139,7 +135,7 @@ UserParameter=2030515-ps1[*],powershell c:\2030515\scripts\zabbix.windows.$1.ps1
                 <discovery_rule>
                     <name>Обнаружение датчиков напряжения</name>
                     <key>2030515-ps1[hard,discovery,voltage]</key>
-                    <delay>2m</delay>
+                    <delay>2h</delay>
                     <lifetime>3d</lifetime>
                     <item_prototypes>
                         <item_prototype>
@@ -159,7 +155,7 @@ UserParameter=2030515-ps1[*],powershell c:\2030515\scripts\zabbix.windows.$1.ps1
                 <discovery_rule>
                     <name>Обнаружение дисков</name>
                     <key>2030515-ps1[hdd,discovery]</key>
-                    <delay>2m</delay>
+                    <delay>2h</delay>
                     <lifetime>3d</lifetime>
                     <item_prototypes>
                         <item_prototype>
@@ -378,7 +374,7 @@ UserParameter=2030515-ps1[*],powershell c:\2030515\scripts\zabbix.windows.$1.ps1
                                 <graph_item>
                                     <color>199C0D</color>
                                     <item>
-                                        <host>2030515 - windows hardware monitor</host>
+                                        <host>2030515 - Windows hardware monitor</host>
                                         <key>2030515-ps1[hdd,{#DISKID},194]</key>
                                     </item>
                                 </graph_item>
