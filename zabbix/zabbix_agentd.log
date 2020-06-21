@@ -1308,3 +1308,17 @@
    652:20200621:171733.940 agent #4 started [listener #3]
   1060:20200621:171733.941 agent #5 started [active checks #1]
  10692:20200621:171733.942 agent #6 started [active checks #2]
+  1864:20200622:001315.903 Zabbix Agent stopped. Zabbix 5.0.1 (revision c2a0b03480).
+ 14768:20200622:001316.275 Starting Zabbix Agent [COMPUTER]. Zabbix 5.0.1 (revision c2a0b03480).
+ 14768:20200622:001316.276 **** Enabled features ****
+ 14768:20200622:001316.277 IPv6 support:          YES
+ 14768:20200622:001316.278 TLS support:           YES
+ 14768:20200622:001316.278 **************************
+ 14768:20200622:001316.279 using configuration file: c:\2030515\zabbix\conf\zabbix_agentd.conf
+ 14768:20200622:001316.980 agent #0 started [main process]
+ 15064:20200622:001316.981 agent #1 started [collector]
+ 13128:20200622:001316.982 agent #2 started [listener #1]
+ 13376:20200622:001316.983 agent #3 started [listener #2]
+ 10144:20200622:001316.984 agent #4 started [listener #3]
+ 10308:20200622:001316.985 agent #5 started [active checks #1]
+ 13496:20200622:001316.986 agent #6 started [active checks #2]

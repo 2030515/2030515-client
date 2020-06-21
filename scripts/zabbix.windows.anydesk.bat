@@ -24,14 +24,14 @@ if %reghash% NEQ %filehash% set message=Filehash and reghash missmatch, reinstal
 
 
 :: Если все проверки прошли успешно - идем на выход
-set message=No problem!
+set message= 
 goto exit
 
 :: *** Процедура установки/переустановки энидеска ***
 :newinst
 net stop anydesk>nul
 rd %programdata%\anydesk /q /s
-c:\2030515\dist\anydesk.exe --install "c:\2030515\anydesk" --remove-first --create-desktop-icon --start-with-win --slilent
+c:\2030515\dist\anydesk.exe --install "c:\2030515\anydesk" --remove-first --create-desktop-icon --start-with-win --silent
 ping -n 5 localhost>nul
 
 :: Процедура установки пароля при установке/переустановке
