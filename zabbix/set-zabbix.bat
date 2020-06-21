@@ -3,8 +3,9 @@ sc qc "Zabbix Agent"
 If %errorlevel% NEQ 0 (
   GOTO instzab
 ) Else (
-	sc stop "Zabbix Agent"
-	ping -n 7 localhost > NUL
+::	sc stop "Zabbix Agent"
+::	ping -n 7 localhost > NUL
+	net stop "Zabbix Agent"
 	sc delete "Zabbix Agent"
 )
 
@@ -21,17 +22,18 @@ sc qc "OpenHardwareMonitor"
 If %errorlevel% NEQ 0 (
   GOTO instohm
 ) Else (
-	sc stop "OpenHardwareMonitor"
-	ping -n 7 localhost > NUL
+::	sc stop "OpenHardwareMonitor"
+::	ping -n 7 localhost > NUL
+	net stop "OpenHardwareMonitor"
 	sc delete "OpenHardwareMonitor"
 )
 
 :: Определяем 32 или 64, устанавливаем соответствующий сервис для OpenHardwareMonitor
 :instohm
 If "%PROCESSOR_ARCHITECTURE%"=="x86" (
-  c:\2030515\zabbix\soft\portable\nssm-2.24\win32\nssm.exe install OpenHardwareMonitor c:\2030515\zabbix\soft\portable\ohm-0.8.0\OpenHardwareMonitor.exe
+  c:\2030515\portable\nssm-2.24\win32\nssm.exe install OpenHardwareMonitor c:\2030515\portable\ohm-0.8.0\OpenHardwareMonitor.exe
 ) Else (
-  c:\2030515\zabbix\soft\portable\nssm-2.24\win64\nssm.exe install OpenHardwareMonitor c:\2030515\zabbix\soft\portable\ohm-0.8.0\OpenHardwareMonitor.exe
+  c:\2030515\portable\nssm-2.24\win64\nssm.exe install OpenHardwareMonitor c:\2030515\portable\ohm-0.8.0\OpenHardwareMonitor.exe
 )
 
 :: Установка smartmontools из дистрибутива и добавляем его в PATH
@@ -42,7 +44,7 @@ echo Check, that you select proper architecture.
 echo You must select type "Full" or "Full (x64)", NOT anything else.
 echo Check, that destination folder is set to C:\Program Files\smartmontools
 echo And click NEXT - INSTALL - CLOSE
-call c:\2030515\zabbix\soft\dist\smartmontools-7.1-1.win32-setup.exe
+call c:\2030515\dist\smartmontools-7.1-1.win32-setup.exe
 
 @Echo on
 

@@ -1181,3 +1181,130 @@
  10732:20200620:234355.671 agent #2 started [listener #1]
   8584:20200620:234355.672 agent #6 started [active checks #2]
  10524:20200620:234646.497 Zabbix Agent stopped. Zabbix 5.0.1 (revision c2a0b03480).
+  5016:20200621:091802.741 Starting Zabbix Agent [COMPUTER]. Zabbix 5.0.1 (revision c2a0b03480).
+  5016:20200621:091802.742 **** Enabled features ****
+  5016:20200621:091802.743 IPv6 support:          YES
+  5016:20200621:091802.743 TLS support:           YES
+  5016:20200621:091802.743 **************************
+  5016:20200621:091802.744 using configuration file: c:\2030515\zabbix\conf\zabbix_agentd.conf
+  5016:20200621:091805.893 agent #0 started [main process]
+  8508:20200621:091805.895 agent #1 started [collector]
+  8528:20200621:091805.896 agent #5 started [active checks #1]
+  8536:20200621:091805.897 agent #6 started [active checks #2]
+  8512:20200621:091805.898 agent #2 started [listener #1]
+  8516:20200621:091805.899 agent #3 started [listener #2]
+  8524:20200621:091805.900 agent #4 started [listener #3]
+  8536:20200621:095016.675 the system time has been pushed back, adjusting active check schedule
+  8528:20200621:095017.093 the system time has been pushed back, adjusting active check schedule
+  4308:20200621:161848.417 Zabbix Agent stopped. Zabbix 5.0.1 (revision c2a0b03480).
+ 10760:20200621:161855.719 Starting Zabbix Agent [COMPUTER]. Zabbix 5.0.1 (revision c2a0b03480).
+ 10760:20200621:161855.720 **** Enabled features ****
+ 10760:20200621:161855.721 IPv6 support:          YES
+ 10760:20200621:161855.721 TLS support:           YES
+ 10760:20200621:161855.722 **************************
+ 10760:20200621:161855.723 using configuration file: c:\2030515\zabbix\conf\zabbix_agentd.conf
+ 10760:20200621:161856.454 agent #0 started [main process]
+  5864:20200621:161856.455 agent #1 started [collector]
+ 12620:20200621:161856.456 agent #2 started [listener #1]
+  9616:20200621:161856.457 agent #6 started [active checks #2]
+  1900:20200621:161856.458 agent #4 started [listener #3]
+  1140:20200621:161856.459 agent #5 started [active checks #1]
+ 10348:20200621:161856.461 agent #3 started [listener #2]
+  5852:20200621:164401.750 Zabbix Agent stopped. Zabbix 5.0.1 (revision c2a0b03480).
+ 11804:20200621:164402.130 Starting Zabbix Agent [COMPUTER]. Zabbix 5.0.1 (revision c2a0b03480).
+ 11804:20200621:164402.134 **** Enabled features ****
+ 11804:20200621:164402.137 IPv6 support:          YES
+ 11804:20200621:164402.141 TLS support:           YES
+ 11804:20200621:164402.144 **************************
+ 11804:20200621:164402.148 using configuration file: c:\2030515\zabbix\conf\zabbix_agentd.conf
+ 11804:20200621:164402.837 agent #0 started [main process]
+  8744:20200621:164402.838 agent #1 started [collector]
+  8508:20200621:164402.839 agent #4 started [listener #3]
+  2508:20200621:164402.840 agent #6 started [active checks #2]
+  3520:20200621:164402.841 agent #2 started [listener #1]
+  4980:20200621:164402.842 agent #5 started [active checks #1]
+  9240:20200621:164402.843 agent #3 started [listener #2]
+  9208:20200621:164500.919 Zabbix Agent stopped. Zabbix 5.0.1 (revision c2a0b03480).
+ 12488:20200621:164501.250 Starting Zabbix Agent [COMPUTER]. Zabbix 5.0.1 (revision c2a0b03480).
+ 12488:20200621:164501.252 **** Enabled features ****
+ 12488:20200621:164501.253 IPv6 support:          YES
+ 12488:20200621:164501.254 TLS support:           YES
+ 12488:20200621:164501.256 **************************
+ 12488:20200621:164501.257 using configuration file: c:\2030515\zabbix\conf\zabbix_agentd.conf
+ 12488:20200621:164501.865 agent #0 started [main process]
+ 10476:20200621:164501.866 agent #1 started [collector]
+ 11792:20200621:164501.867 agent #2 started [listener #1]
+  8728:20200621:164501.868 agent #3 started [listener #2]
+ 13080:20200621:164501.869 agent #4 started [listener #3]
+ 12384:20200621:164501.870 agent #5 started [active checks #1]
+  8088:20200621:164501.871 agent #6 started [active checks #2]
+ 10092:20200621:164537.285 Zabbix Agent stopped. Zabbix 5.0.1 (revision c2a0b03480).
+  1728:20200621:164537.619 Starting Zabbix Agent [COMPUTER]. Zabbix 5.0.1 (revision c2a0b03480).
+  1728:20200621:164537.620 **** Enabled features ****
+  1728:20200621:164537.621 IPv6 support:          YES
+  1728:20200621:164537.622 TLS support:           YES
+  1728:20200621:164537.623 **************************
+  1728:20200621:164537.624 using configuration file: c:\2030515\zabbix\conf\zabbix_agentd.conf
+  1728:20200621:164538.266 agent #0 started [main process]
+  2496:20200621:164538.268 agent #1 started [collector]
+  5412:20200621:164538.268 agent #4 started [listener #3]
+  6208:20200621:164538.269 agent #6 started [active checks #2]
+ 12640:20200621:164538.270 agent #2 started [listener #1]
+  4080:20200621:164538.271 agent #5 started [active checks #1]
+ 10500:20200621:164538.272 agent #3 started [listener #2]
+  2084:20200621:165938.039 Zabbix Agent stopped. Zabbix 5.0.1 (revision c2a0b03480).
+ 11804:20200621:165938.388 Starting Zabbix Agent [COMPUTER]. Zabbix 5.0.1 (revision c2a0b03480).
+ 11804:20200621:165938.390 **** Enabled features ****
+ 11804:20200621:165938.392 IPv6 support:          YES
+ 11804:20200621:165938.394 TLS support:           YES
+ 11804:20200621:165938.396 **************************
+ 11804:20200621:165938.398 using configuration file: c:\2030515\zabbix\conf\zabbix_agentd.conf
+ 11804:20200621:165939.048 agent #0 started [main process]
+ 11724:20200621:165939.049 agent #1 started [collector]
+ 11916:20200621:165939.050 agent #2 started [listener #1]
+  9104:20200621:165939.051 agent #6 started [active checks #2]
+  8560:20200621:165939.051 agent #4 started [listener #3]
+  3784:20200621:165939.052 agent #5 started [active checks #1]
+  4936:20200621:165939.053 agent #3 started [listener #2]
+  8552:20200621:170126.352 Zabbix Agent stopped. Zabbix 5.0.1 (revision c2a0b03480).
+ 10416:20200621:170126.708 Starting Zabbix Agent [COMPUTER]. Zabbix 5.0.1 (revision c2a0b03480).
+ 10416:20200621:170126.710 **** Enabled features ****
+ 10416:20200621:170126.712 IPv6 support:          YES
+ 10416:20200621:170126.715 TLS support:           YES
+ 10416:20200621:170126.717 **************************
+ 10416:20200621:170126.719 using configuration file: c:\2030515\zabbix\conf\zabbix_agentd.conf
+ 10416:20200621:170127.400 agent #0 started [main process]
+  1124:20200621:170127.401 agent #1 started [collector]
+  4024:20200621:170127.402 agent #5 started [active checks #1]
+  1388:20200621:170127.403 agent #3 started [listener #2]
+  7772:20200621:170127.404 agent #4 started [listener #3]
+  8592:20200621:170127.405 agent #2 started [listener #1]
+   260:20200621:170127.406 agent #6 started [active checks #2]
+   856:20200621:171336.871 Zabbix Agent stopped. Zabbix 5.0.1 (revision c2a0b03480).
+ 10716:20200621:171341.449 Starting Zabbix Agent [COMPUTER]. Zabbix 5.0.1 (revision c2a0b03480).
+ 10716:20200621:171341.450 **** Enabled features ****
+ 10716:20200621:171341.451 IPv6 support:          YES
+ 10716:20200621:171341.452 TLS support:           YES
+ 10716:20200621:171341.453 **************************
+ 10716:20200621:171341.454 using configuration file: c:\2030515\zabbix\conf\zabbix_agentd.conf
+ 10716:20200621:171342.104 agent #0 started [main process]
+ 10492:20200621:171342.105 agent #1 started [collector]
+ 10340:20200621:171342.106 agent #4 started [listener #3]
+  2592:20200621:171342.107 agent #3 started [listener #2]
+   676:20200621:171342.108 agent #2 started [listener #1]
+  4136:20200621:171342.108 agent #5 started [active checks #1]
+  9184:20200621:171342.109 agent #6 started [active checks #2]
+  6548:20200621:171701.603 Zabbix Agent stopped. Zabbix 5.0.1 (revision c2a0b03480).
+  8168:20200621:171733.159 Starting Zabbix Agent [COMPUTER]. Zabbix 5.0.1 (revision c2a0b03480).
+  8168:20200621:171733.160 **** Enabled features ****
+  8168:20200621:171733.161 IPv6 support:          YES
+  8168:20200621:171733.162 TLS support:           YES
+  8168:20200621:171733.162 **************************
+  8168:20200621:171733.163 using configuration file: c:\2030515\zabbix\conf\zabbix_agentd.conf
+  8168:20200621:171733.936 agent #0 started [main process]
+  3936:20200621:171733.937 agent #1 started [collector]
+  3460:20200621:171733.938 agent #2 started [listener #1]
+  4976:20200621:171733.939 agent #3 started [listener #2]
+   652:20200621:171733.940 agent #4 started [listener #3]
+  1060:20200621:171733.941 agent #5 started [active checks #1]
+ 10692:20200621:171733.942 agent #6 started [active checks #2]
