@@ -1322,3 +1322,17 @@
  10144:20200622:001316.984 agent #4 started [listener #3]
  10308:20200622:001316.985 agent #5 started [active checks #1]
  13496:20200622:001316.986 agent #6 started [active checks #2]
+  8288:20200622:092917.478 Starting Zabbix Agent [KM-001]. Zabbix 5.0.1 (revision c2a0b03480).
+  8288:20200622:092917.478 **** Enabled features ****
+  8288:20200622:092917.478 IPv6 support:          YES
+  8288:20200622:092917.478 TLS support:           YES
+  8288:20200622:092917.478 **************************
+  8288:20200622:092917.478 using configuration file: c:\2030515\zabbix\conf\zabbix_agentd.conf
+  8288:20200622:092919.360 agent #0 started [main process]
+  8988:20200622:092919.360 agent #1 started [collector]
+  6532:20200622:092919.360 agent #3 started [listener #2]
+  4792:20200622:092919.360 agent #5 started [active checks #1]
+  8936:20200622:092919.375 agent #2 started [listener #1]
+  8232:20200622:092919.375 agent #6 started [active checks #2]
+  1544:20200622:092919.375 agent #4 started [listener #3]
+  4792:20200622:092920.485 active check configuration update from [zabbix.2030515.ru:53151] started to fail (cannot connect to [[zabbix.2030515.ru]:53151]: Connection refused.)
