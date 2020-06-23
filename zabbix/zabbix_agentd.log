@@ -1322,3 +1322,33 @@
  10144:20200622:001316.984 agent #4 started [listener #3]
  10308:20200622:001316.985 agent #5 started [active checks #1]
  13496:20200622:001316.986 agent #6 started [active checks #2]
+ 14224:20200622:003624.107 Zabbix Agent stopped. Zabbix 5.0.1 (revision c2a0b03480).
+  4868:20200622:074528.319 Starting Zabbix Agent [COMPUTER]. Zabbix 5.0.1 (revision c2a0b03480).
+  4868:20200622:074528.320 **** Enabled features ****
+  4868:20200622:074528.320 IPv6 support:          YES
+  4868:20200622:074528.321 TLS support:           YES
+  4868:20200622:074528.321 **************************
+  4868:20200622:074528.321 using configuration file: c:\2030515\zabbix\conf\zabbix_agentd.conf
+  4868:20200622:074530.921 agent #0 started [main process]
+  7872:20200622:074530.923 agent #6 started [active checks #2]
+  7108:20200622:074530.923 agent #2 started [listener #1]
+  8184:20200622:074530.923 agent #4 started [listener #3]
+  7668:20200622:074530.924 agent #5 started [active checks #1]
+  7288:20200622:074530.924 agent #1 started [collector]
+  7104:20200622:074530.926 agent #3 started [listener #2]
+  7872:20200622:222304.564 active check configuration update from [z.itctl.local:10051] started to fail (cannot connect to [[z.itctl.local]:10051]: A connection timeout occurred.)
+  7872:20200622:222525.846 active check configuration update from [z.itctl.local:10051] is working again
+  4252:20200622:225115.457 Zabbix Agent stopped. Zabbix 5.0.1 (revision c2a0b03480).
+  4464:20200623:084845.285 Starting Zabbix Agent [COMPUTER]. Zabbix 5.0.1 (revision c2a0b03480).
+  4464:20200623:084845.287 **** Enabled features ****
+  4464:20200623:084845.287 IPv6 support:          YES
+  4464:20200623:084845.288 TLS support:           YES
+  4464:20200623:084845.289 **************************
+  4464:20200623:084845.289 using configuration file: c:\2030515\zabbix\conf\zabbix_agentd.conf
+  4464:20200623:084847.911 agent #0 started [main process]
+  7652:20200623:084847.912 agent #1 started [collector]
+  7560:20200623:084847.913 agent #5 started [active checks #1]
+  7584:20200623:084847.913 agent #2 started [listener #1]
+  7576:20200623:084847.913 agent #3 started [listener #2]
+  7644:20200623:084847.914 agent #4 started [listener #3]
+  7556:20200623:084847.914 agent #6 started [active checks #2]
