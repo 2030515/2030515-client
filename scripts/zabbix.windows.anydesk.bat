@@ -1,6 +1,10 @@
-:: В первом параметре %1 принимаемом пароль для неконтролируемого доступа
 @echo off
 chcp 850>nul
+
+:: В первом параметре %1 принимаемом пароль для неконтролируемого доступа, обрезаем кавычки
+set newpass=%1>nul
+set newpass=%newpass:~1,-1%>nul
+
 :: Если второй параметр = force не делаем никаких проверок - сразу на переустановку.
 if %2=="force" set message=Receive command to force reinstall!& goto newinst
 
@@ -35,7 +39,7 @@ c:\2030515\dist\anydesk.exe --install "c:\2030515\anydesk" --remove-first --crea
 ping -n 5 localhost>nul
 
 :: Процедура установки пароля при установке/переустановке
-echo %1 | "c:\2030515\anydesk\anydesk.exe" --set-password
+echo %newpass% | "c:\2030515\anydesk\anydesk.exe" --set-password
 net stop anydesk>nul
 echo ad.security.allow_logon_token=false>>%programdata%\AnyDesk\system.conf
 sc start anydesk>nul
