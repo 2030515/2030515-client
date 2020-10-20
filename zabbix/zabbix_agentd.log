@@ -5743,3 +5743,217 @@
   7932:20201015:081403.930 agent #2 started [listener #1]
   7940:20201015:081403.931 agent #4 started [listener #3]
   7936:20201015:081403.931 agent #3 started [listener #2]
+  3928:20201015:230531.238 Zabbix Agent stopped. Zabbix 5.0.1 (revision c2a0b03480).
+  5052:20201016:093335.456 Starting Zabbix Agent [COMPUTER]. Zabbix 5.0.1 (revision c2a0b03480).
+  5052:20201016:093335.457 **** Enabled features ****
+  5052:20201016:093335.458 IPv6 support:          YES
+  5052:20201016:093335.458 TLS support:           YES
+  5052:20201016:093335.458 **************************
+  5052:20201016:093335.458 using configuration file: c:\2030515\zabbix\conf\zabbix_agentd.conf
+  5052:20201016:093337.856 agent #0 started [main process]
+  8616:20201016:093337.856 agent #1 started [collector]
+  8632:20201016:093337.857 agent #5 started [active checks #1]
+  8636:20201016:093337.857 agent #6 started [active checks #2]
+  8620:20201016:093337.857 agent #2 started [listener #1]
+  8628:20201016:093337.857 agent #4 started [listener #3]
+  8624:20201016:093337.858 agent #3 started [listener #2]
+  8636:20201016:093338.735 active check configuration update from [z.itctl.local:10051] started to fail (cannot resolve [z.itctl.local])
+  8632:20201016:093338.735 active check configuration update from [zabbix.2030515.ru:53151] started to fail (cannot resolve [zabbix.2030515.ru])
+  8632:20201016:093438.513 active check configuration update from [zabbix.2030515.ru:53151] is working again
+  8636:20201016:093442.474 active check configuration update from [z.itctl.local:10051] is working again
+  8632:20201016:155124.688 active check configuration update from [zabbix.2030515.ru:53151] started to fail (cannot connect to [[zabbix.2030515.ru]:53151]: A connection timeout occurred.)
+  8636:20201016:155135.182 active check configuration update from [z.itctl.local:10051] started to fail (cannot connect to [[z.itctl.local]:10051]: A connection timeout occurred.)
+  4608:20201016:223053.591 Zabbix Agent stopped. Zabbix 5.0.1 (revision c2a0b03480).
+  3876:20201017:094938.542 Starting Zabbix Agent [COMPUTER]. Zabbix 5.0.1 (revision c2a0b03480).
+  3876:20201017:094938.543 **** Enabled features ****
+  3876:20201017:094938.544 IPv6 support:          YES
+  3876:20201017:094938.544 TLS support:           YES
+  3876:20201017:094938.544 **************************
+  3876:20201017:094938.544 using configuration file: c:\2030515\zabbix\conf\zabbix_agentd.conf
+  3876:20201017:094941.458 agent #0 started [main process]
+  9100:20201017:094941.458 agent #1 started [collector]
+  9116:20201017:094941.459 agent #5 started [active checks #1]
+  9120:20201017:094941.459 agent #6 started [active checks #2]
+  9112:20201017:094941.459 agent #4 started [listener #3]
+  9104:20201017:094941.459 agent #2 started [listener #1]
+  9108:20201017:094941.460 agent #3 started [listener #2]
+  9116:20201017:094941.780 active check configuration update from [zabbix.2030515.ru:53151] started to fail (cannot resolve [zabbix.2030515.ru])
+  9120:20201017:094941.788 active check configuration update from [z.itctl.local:10051] started to fail (cannot resolve [z.itctl.local])
+  9116:20201017:152033.345 active check configuration update from [zabbix.2030515.ru:53151] is working again
+  9112:20201017:152039.164 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9104:20201017:152139.248 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9108:20201017:152239.399 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9108:20201017:152339.556 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9104:20201017:152439.729 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9112:20201017:152539.967 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9112:20201017:152640.132 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9104:20201017:152740.332 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9108:20201017:152840.502 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9104:20201017:152940.658 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9112:20201017:153039.817 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9108:20201017:153139.982 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9108:20201017:153240.149 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9112:20201017:153340.312 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9104:20201017:153440.480 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9104:20201017:153540.699 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9112:20201017:153640.853 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9108:20201017:153741.024 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9108:20201017:153841.196 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9104:20201017:153941.369 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9112:20201017:154041.569 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9108:20201017:154141.747 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9112:20201017:154242.909 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9104:20201017:154343.004 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9104:20201017:154443.154 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9112:20201017:154543.390 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9108:20201017:154643.548 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9108:20201017:154743.720 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9112:20201017:154843.890 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9104:20201017:154944.059 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9104:20201017:155044.241 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9112:20201017:155144.393 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9108:20201017:155244.553 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9108:20201017:155344.727 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9112:20201017:155444.907 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9104:20201017:155545.121 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9104:20201017:155645.276 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9112:20201017:155745.469 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9108:20201017:155845.639 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9108:20201017:155944.791 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9112:20201017:160044.953 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9104:20201017:160145.123 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9104:20201017:160245.296 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9112:20201017:160345.458 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9108:20201017:160447.623 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9108:20201017:160547.761 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9104:20201017:160647.941 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9112:20201017:160748.105 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9112:20201017:160848.293 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9104:20201017:160948.506 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9108:20201017:161048.676 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9108:20201017:161147.833 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9104:20201017:161248.006 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9112:20201017:161348.174 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9112:20201017:161448.340 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9104:20201017:161548.573 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9108:20201017:161648.742 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9108:20201017:161748.913 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9104:20201017:161849.113 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9112:20201017:161949.305 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9112:20201017:162049.447 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9108:20201017:162149.617 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9104:20201017:162248.793 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9104:20201017:162348.952 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9108:20201017:162449.126 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9112:20201017:162550.318 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9112:20201017:162650.443 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9108:20201017:162750.624 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9104:20201017:162849.796 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9104:20201017:162949.961 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9108:20201017:163050.119 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9112:20201017:163150.317 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9112:20201017:163250.490 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9108:20201017:163350.692 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9104:20201017:163449.862 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9104:20201017:163550.079 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9108:20201017:163650.245 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9112:20201017:163750.411 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9112:20201017:163850.609 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9108:20201017:163950.812 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9104:20201017:164050.988 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9104:20201017:164151.164 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9108:20201017:164251.323 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9112:20201017:164351.492 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9112:20201017:164451.665 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9108:20201017:164550.897 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9104:20201017:164653.068 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9104:20201017:164753.158 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9112:20201017:164853.312 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9108:20201017:164953.473 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9108:20201017:165053.642 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9104:20201017:165153.812 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9112:20201017:165253.986 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9108:20201017:165354.157 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9112:20201017:165454.319 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9104:20201017:165554.521 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9112:20201017:165654.717 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9104:20201017:165753.910 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9108:20201017:165854.057 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9108:20201017:165954.231 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9112:20201017:170054.394 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9104:20201017:170154.566 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9104:20201017:170254.737 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9108:20201017:170353.907 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9112:20201017:170454.077 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9108:20201017:170554.311 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9112:20201017:170654.520 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9104:20201017:170755.682 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9112:20201017:170858.849 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9104:20201017:171001.007 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9108:20201017:171101.112 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9108:20201017:171201.276 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9104:20201017:171301.481 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9112:20201017:171401.673 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9112:20201017:171501.860 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9104:20201017:171602.083 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9108:20201017:171702.264 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9108:20201017:171802.468 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9104:20201017:171902.634 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9112:20201017:172002.773 failed to accept an incoming connection: connection from "192.168.88.4" rejected, allowed hosts: "zabbix.2030515.ru,z.itctl.local"
+  9120:20201017:172152.011 active check configuration update from [z.itctl.local:10051] is working again
+  9120:20201017:175617.270 active check configuration update from [z.itctl.local:10051] started to fail (cannot connect to [[z.itctl.local]:10051]: A connection timeout occurred.)
+  9120:20201017:175717.413 active check configuration update from [z.itctl.local:10051] is working again
+  4608:20201017:231155.776 Zabbix Agent stopped. Zabbix 5.0.1 (revision c2a0b03480).
+  4536:20201018:140304.349 Starting Zabbix Agent [COMPUTER]. Zabbix 5.0.1 (revision c2a0b03480).
+  4536:20201018:140304.351 **** Enabled features ****
+  4536:20201018:140304.351 IPv6 support:          YES
+  4536:20201018:140304.351 TLS support:           YES
+  4536:20201018:140304.351 **************************
+  4536:20201018:140304.352 using configuration file: c:\2030515\zabbix\conf\zabbix_agentd.conf
+  4536:20201018:140306.725 agent #0 started [main process]
+  8728:20201018:140306.726 agent #1 started [collector]
+  8748:20201018:140306.726 agent #6 started [active checks #2]
+  8744:20201018:140306.726 agent #5 started [active checks #1]
+  8740:20201018:140306.727 agent #4 started [listener #3]
+  8736:20201018:140306.727 agent #3 started [listener #2]
+  8732:20201018:140306.727 agent #2 started [listener #1]
+  8744:20201018:140307.640 active check configuration update from [zabbix.2030515.ru:53151] started to fail (cannot resolve [z.itctl.local])
+  8748:20201018:140307.641 active check configuration update from [z.itctl.local:10051] started to fail (cannot resolve [z.itctl.local])
+  8744:20201018:140407.290 active check configuration update from [zabbix.2030515.ru:53151] is working again
+  8748:20201018:140407.363 active check configuration update from [z.itctl.local:10051] is working again
+  4576:20201018:221319.216 Zabbix Agent stopped. Zabbix 5.0.1 (revision c2a0b03480).
+  3796:20201019:152749.415 Starting Zabbix Agent [COMPUTER]. Zabbix 5.0.1 (revision c2a0b03480).
+  3796:20201019:152749.416 **** Enabled features ****
+  3796:20201019:152749.416 IPv6 support:          YES
+  3796:20201019:152749.416 TLS support:           YES
+  3796:20201019:152749.417 **************************
+  3796:20201019:152749.417 using configuration file: c:\2030515\zabbix\conf\zabbix_agentd.conf
+  3796:20201019:152751.972 agent #0 started [main process]
+  8792:20201019:152751.972 agent #1 started [collector]
+  8808:20201019:152751.973 agent #5 started [active checks #1]
+  8812:20201019:152751.973 agent #6 started [active checks #2]
+  8796:20201019:152751.973 agent #2 started [listener #1]
+  8804:20201019:152751.973 agent #4 started [listener #3]
+  8800:20201019:152751.974 agent #3 started [listener #2]
+  8808:20201019:152752.710 active check configuration update from [zabbix.2030515.ru:53151] started to fail (cannot resolve [zabbix.2030515.ru])
+  8812:20201019:152752.715 active check configuration update from [z.itctl.local:10051] started to fail (cannot resolve [z.itctl.local])
+  8808:20201019:152852.090 active check configuration update from [zabbix.2030515.ru:53151] is working again
+  8812:20201019:152852.634 active check configuration update from [z.itctl.local:10051] is working again
+  4620:20201019:234118.493 Zabbix Agent stopped. Zabbix 5.0.1 (revision c2a0b03480).
+  4600:20201020:081220.265 Starting Zabbix Agent [COMPUTER]. Zabbix 5.0.1 (revision c2a0b03480).
+  4600:20201020:081220.266 **** Enabled features ****
+  4600:20201020:081220.266 IPv6 support:          YES
+  4600:20201020:081220.266 TLS support:           YES
+  4600:20201020:081220.266 **************************
+  4600:20201020:081220.266 using configuration file: c:\2030515\zabbix\conf\zabbix_agentd.conf
+  4600:20201020:081223.109 agent #0 started [main process]
+  9032:20201020:081223.109 agent #1 started [collector]
+  9048:20201020:081223.110 agent #5 started [active checks #1]
+  9052:20201020:081223.110 agent #6 started [active checks #2]
+  9040:20201020:081223.110 agent #3 started [listener #2]
+  9036:20201020:081223.110 agent #2 started [listener #1]
+  9044:20201020:081223.111 agent #4 started [listener #3]
+  9052:20201020:081223.517 active check configuration update from [z.itctl.local:10051] started to fail (cannot resolve [z.itctl.local])
+  9048:20201020:081223.528 active check configuration update from [zabbix.2030515.ru:53151] started to fail (cannot resolve [zabbix.2030515.ru])
+  9048:20201020:081323.239 active check configuration update from [zabbix.2030515.ru:53151] is working again
+  9052:20201020:081323.277 active check configuration update from [z.itctl.local:10051] is working again
