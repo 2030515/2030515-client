@@ -54,10 +54,6 @@ rem Определим лог файйл, положим его в месте х
 set logfile=%dest%\%dt%_%tm%_log.txt
 
 echo Job start at %dt% %tm% >> "%logfile%"
-echo. >> "%logfile%"
-echo. >> "%logfile%"
-echo. >> "%logfile%"
-
 echo Creating Olds >> "%logfile%"
 rem Создать Olds. При этом не трогается основной архив.
 "%arc%" u %archsparm% -u- -up0q1r0x1y1z0w1!"%dest%\%dt%_%tm%_olds.7z" "%dest%\mirror.7z" %source%>> "%logfile%"
@@ -76,7 +72,7 @@ echo. >> "%logfile%"
 
 echo Removing old Olds >> "%logfile%"
 rem Удаляем просроченные по дате файлы
-@cd /d "%dest%" && @forfiles /d -%keepoldsdays% /C "cmd /c del /s /q /f @file">> "%logfile%"
+@cd /d "%dest%" && @forfiles /d -%keepoldsdays% /C "cmd /c del /s /q /f @file" >> "%logfile%"
 
 set dt=%date%
 set tm=%TIME:~0,2%-%TIME:~3,2%-%TIME:~6,2%
