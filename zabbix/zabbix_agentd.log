@@ -5957,3 +5957,227 @@
   9048:20201020:081223.528 active check configuration update from [zabbix.2030515.ru:53151] started to fail (cannot resolve [zabbix.2030515.ru])
   9048:20201020:081323.239 active check configuration update from [zabbix.2030515.ru:53151] is working again
   9052:20201020:081323.277 active check configuration update from [z.itctl.local:10051] is working again
+  9052:20201022:021424.469 the system time has been pushed back, adjusting active check schedule
+  9048:20201022:021425.162 the system time has been pushed back, adjusting active check schedule
+  9052:20201022:175800.260 active check configuration update from [z.itctl.local:10051] started to fail (cannot connect to [[z.itctl.local]:10051]: A connection timeout occurred.)
+  9048:20201022:175936.507 active check configuration update from [zabbix.2030515.ru:53151] started to fail (cannot resolve [zabbix.2030515.ru])
+  9048:20201022:180038.620 active check configuration update from [zabbix.2030515.ru:53151] is working again
+  9052:20201022:180040.120 active check configuration update from [z.itctl.local:10051] is working again
+  4648:20201022:224554.358 Zabbix Agent stopped. Zabbix 5.0.1 (revision c2a0b03480).
+  5112:20201023:081713.196 Starting Zabbix Agent [COMPUTER]. Zabbix 5.0.1 (revision c2a0b03480).
+  5112:20201023:081713.197 **** Enabled features ****
+  5112:20201023:081713.197 IPv6 support:          YES
+  5112:20201023:081713.198 TLS support:           YES
+  5112:20201023:081713.198 **************************
+  5112:20201023:081713.198 using configuration file: c:\2030515\zabbix\conf\zabbix_agentd.conf
+  5112:20201023:081715.634 agent #0 started [main process]
+  8840:20201023:081715.635 agent #1 started [collector]
+  8856:20201023:081715.635 agent #5 started [active checks #1]
+  8860:20201023:081715.635 agent #6 started [active checks #2]
+  8852:20201023:081715.635 agent #4 started [listener #3]
+  8848:20201023:081715.635 agent #3 started [listener #2]
+  8844:20201023:081715.636 agent #2 started [listener #1]
+  8860:20201023:081716.534 active check configuration update from [z.itctl.local:10051] started to fail (cannot resolve [z.itctl.local])
+  8856:20201023:081716.538 active check configuration update from [zabbix.2030515.ru:53151] started to fail (cannot resolve [zabbix.2030515.ru])
+  8856:20201023:081816.349 active check configuration update from [zabbix.2030515.ru:53151] is working again
+  8860:20201023:081816.593 active check configuration update from [z.itctl.local:10051] is working again
+  4608:20201023:154903.784 Zabbix Agent stopped. Zabbix 5.0.1 (revision c2a0b03480).
+  5088:20201023:165223.904 Starting Zabbix Agent [COMPUTER]. Zabbix 5.0.1 (revision c2a0b03480).
+  5088:20201023:165223.906 **** Enabled features ****
+  5088:20201023:165223.906 IPv6 support:          YES
+  5088:20201023:165223.906 TLS support:           YES
+  5088:20201023:165223.906 **************************
+  5088:20201023:165223.906 using configuration file: c:\2030515\zabbix\conf\zabbix_agentd.conf
+  5088:20201023:165226.268 agent #0 started [main process]
+  8656:20201023:165226.268 agent #1 started [collector]
+  8672:20201023:165226.269 agent #5 started [active checks #1]
+  8676:20201023:165226.269 agent #6 started [active checks #2]
+  8660:20201023:165226.270 agent #2 started [listener #1]
+  8664:20201023:165226.270 agent #3 started [listener #2]
+  8668:20201023:165226.271 agent #4 started [listener #3]
+  8676:20201023:165227.167 active check configuration update from [z.itctl.local:10051] started to fail (cannot resolve [z.itctl.local])
+  8672:20201023:165227.179 active check configuration update from [zabbix.2030515.ru:53151] started to fail (cannot resolve [zabbix.2030515.ru])
+  8672:20201023:165327.566 active check configuration update from [zabbix.2030515.ru:53151] is working again
+  8676:20201023:165327.593 active check configuration update from [z.itctl.local:10051] is working again
+  4512:20201024:002023.482 Zabbix Agent stopped. Zabbix 5.0.1 (revision c2a0b03480).
+  4872:20201024:082100.847 Starting Zabbix Agent [COMPUTER]. Zabbix 5.0.1 (revision c2a0b03480).
+  4872:20201024:082100.853 **** Enabled features ****
+  4872:20201024:082100.853 IPv6 support:          YES
+  4872:20201024:082100.853 TLS support:           YES
+  4872:20201024:082100.853 **************************
+  4872:20201024:082100.853 using configuration file: c:\2030515\zabbix\conf\zabbix_agentd.conf
+  4872:20201024:082103.282 agent #0 started [main process]
+  8524:20201024:082103.282 agent #5 started [active checks #1]
+  8508:20201024:082103.283 agent #1 started [collector]
+  8528:20201024:082103.283 agent #6 started [active checks #2]
+  8516:20201024:082103.283 agent #3 started [listener #2]
+  8512:20201024:082103.283 agent #2 started [listener #1]
+  8520:20201024:082103.284 agent #4 started [listener #3]
+  8528:20201024:082104.158 active check configuration update from [z.itctl.local:10051] started to fail (cannot resolve [z.itctl.local])
+  8524:20201024:082104.163 active check configuration update from [zabbix.2030515.ru:53151] started to fail (cannot resolve [zabbix.2030515.ru])
+  8524:20201024:082204.410 active check configuration update from [zabbix.2030515.ru:53151] is working again
+  8528:20201024:082204.726 active check configuration update from [z.itctl.local:10051] is working again
+  4288:20201024:143535.410 Zabbix Agent stopped. Zabbix 5.0.1 (revision c2a0b03480).
+  4628:20201024:143607.696 Starting Zabbix Agent [COMPUTER]. Zabbix 5.0.1 (revision c2a0b03480).
+  4628:20201024:143607.697 **** Enabled features ****
+  4628:20201024:143607.698 IPv6 support:          YES
+  4628:20201024:143607.698 TLS support:           YES
+  4628:20201024:143607.698 **************************
+  4628:20201024:143607.698 using configuration file: c:\2030515\zabbix\conf\zabbix_agentd.conf
+  4628:20201024:143610.035 agent #0 started [main process]
+  8384:20201024:143610.035 agent #1 started [collector]
+  8400:20201024:143610.036 agent #5 started [active checks #1]
+  8404:20201024:143610.036 agent #6 started [active checks #2]
+  8392:20201024:143610.036 agent #3 started [listener #2]
+  8396:20201024:143610.037 agent #4 started [listener #3]
+  8388:20201024:143610.037 agent #2 started [listener #1]
+  8404:20201024:183049.046 active check configuration update from [z.itctl.local:10051] started to fail (cannot connect to [[z.itctl.local]:10051]: A connection timeout occurred.)
+  8404:20201024:183311.132 active check configuration update from [z.itctl.local:10051] is working again
+  8404:20201024:183932.164 active check configuration update from [z.itctl.local:10051] started to fail (cannot connect to [[z.itctl.local]:10051]: A connection timeout occurred.)
+  8404:20201024:184209.778 active check configuration update from [z.itctl.local:10051] is working again
+  4352:20201024:222855.050 Zabbix Agent stopped. Zabbix 5.0.1 (revision c2a0b03480).
+  3768:20201025:094752.385 Starting Zabbix Agent [COMPUTER]. Zabbix 5.0.1 (revision c2a0b03480).
+  3768:20201025:094752.386 **** Enabled features ****
+  3768:20201025:094752.386 IPv6 support:          YES
+  3768:20201025:094752.386 TLS support:           YES
+  3768:20201025:094752.386 **************************
+  3768:20201025:094752.386 using configuration file: c:\2030515\zabbix\conf\zabbix_agentd.conf
+  3768:20201025:094754.727 agent #0 started [main process]
+  8684:20201025:094754.728 agent #1 started [collector]
+  8700:20201025:094754.728 agent #5 started [active checks #1]
+  8704:20201025:094754.728 agent #6 started [active checks #2]
+  8696:20201025:094754.728 agent #4 started [listener #3]
+  8688:20201025:094754.729 agent #2 started [listener #1]
+  8692:20201025:094754.729 agent #3 started [listener #2]
+  8704:20201025:094755.646 active check configuration update from [z.itctl.local:10051] started to fail (cannot resolve [z.itctl.local])
+  8700:20201025:094755.646 active check configuration update from [zabbix.2030515.ru:53151] started to fail (cannot resolve [zabbix.2030515.ru])
+  8700:20201025:094856.016 active check configuration update from [zabbix.2030515.ru:53151] is working again
+  8704:20201025:094859.810 active check configuration update from [z.itctl.local:10051] is working again
+  4696:20201025:233923.315 Zabbix Agent stopped. Zabbix 5.0.1 (revision c2a0b03480).
+  5044:20201026:081342.586 Starting Zabbix Agent [COMPUTER]. Zabbix 5.0.1 (revision c2a0b03480).
+  5044:20201026:081342.587 **** Enabled features ****
+  5044:20201026:081342.587 IPv6 support:          YES
+  5044:20201026:081342.587 TLS support:           YES
+  5044:20201026:081342.587 **************************
+  5044:20201026:081342.588 using configuration file: c:\2030515\zabbix\conf\zabbix_agentd.conf
+  5044:20201026:081345.630 agent #0 started [main process]
+  9228:20201026:081345.631 agent #1 started [collector]
+  9244:20201026:081345.631 agent #5 started [active checks #1]
+  9248:20201026:081345.631 agent #6 started [active checks #2]
+  9236:20201026:081345.634 agent #3 started [listener #2]
+  9240:20201026:081345.635 agent #4 started [listener #3]
+  9232:20201026:081345.635 agent #2 started [listener #1]
+  9248:20201026:081345.904 active check configuration update from [z.itctl.local:10051] started to fail (cannot resolve [zabbix.2030515.ru])
+  9244:20201026:081345.905 active check configuration update from [zabbix.2030515.ru:53151] started to fail (cannot resolve [zabbix.2030515.ru])
+  9244:20201026:081445.727 active check configuration update from [zabbix.2030515.ru:53151] is working again
+  9248:20201026:081446.037 active check configuration update from [z.itctl.local:10051] is working again
+  4572:20201026:225049.065 Zabbix Agent stopped. Zabbix 5.0.1 (revision c2a0b03480).
+  4748:20201027:073217.730 Starting Zabbix Agent [COMPUTER]. Zabbix 5.0.1 (revision c2a0b03480).
+  4748:20201027:073217.733 **** Enabled features ****
+  4748:20201027:073217.733 IPv6 support:          YES
+  4748:20201027:073217.733 TLS support:           YES
+  4748:20201027:073217.734 **************************
+  4748:20201027:073217.734 using configuration file: c:\2030515\zabbix\conf\zabbix_agentd.conf
+  4748:20201027:073220.295 agent #0 started [main process]
+  8980:20201027:073220.295 agent #1 started [collector]
+  9012:20201027:073220.295 agent #5 started [active checks #1]
+  9020:20201027:073220.296 agent #6 started [active checks #2]
+  9004:20201027:073220.296 agent #4 started [listener #3]
+  8996:20201027:073220.296 agent #3 started [listener #2]
+  8988:20201027:073220.296 agent #2 started [listener #1]
+  9020:20201027:073220.990 active check configuration update from [z.itctl.local:10051] started to fail (cannot resolve [z.itctl.local])
+  9012:20201027:073221.016 active check configuration update from [zabbix.2030515.ru:53151] started to fail (cannot resolve [zabbix.2030515.ru])
+  9020:20201027:073320.296 active check configuration update from [z.itctl.local:10051] is working again
+  9012:20201027:073321.222 active check configuration update from [zabbix.2030515.ru:53151] is working again
+  4464:20201027:222107.803 Zabbix Agent stopped. Zabbix 5.0.1 (revision c2a0b03480).
+  5112:20201028:085039.305 Starting Zabbix Agent [COMPUTER]. Zabbix 5.0.1 (revision c2a0b03480).
+  5112:20201028:085039.306 **** Enabled features ****
+  5112:20201028:085039.306 IPv6 support:          YES
+  5112:20201028:085039.306 TLS support:           YES
+  5112:20201028:085039.307 **************************
+  5112:20201028:085039.307 using configuration file: c:\2030515\zabbix\conf\zabbix_agentd.conf
+  5112:20201028:085042.040 agent #0 started [main process]
+  9116:20201028:085042.040 agent #1 started [collector]
+  9132:20201028:085042.040 agent #5 started [active checks #1]
+  9136:20201028:085042.041 agent #6 started [active checks #2]
+  9128:20201028:085042.041 agent #4 started [listener #3]
+  9124:20201028:085042.041 agent #3 started [listener #2]
+  9120:20201028:085042.042 agent #2 started [listener #1]
+  9132:20201028:085042.613 active check configuration update from [zabbix.2030515.ru:53151] started to fail (cannot resolve [zabbix.2030515.ru])
+  9136:20201028:085042.621 active check configuration update from [z.itctl.local:10051] started to fail (cannot resolve [z.itctl.local])
+  9132:20201028:085142.489 active check configuration update from [zabbix.2030515.ru:53151] is working again
+  9136:20201028:085146.596 active check configuration update from [z.itctl.local:10051] is working again
+  4632:20201028:221228.694 Zabbix Agent stopped. Zabbix 5.0.1 (revision c2a0b03480).
+  5088:20201029:075656.623 Starting Zabbix Agent [COMPUTER]. Zabbix 5.0.1 (revision c2a0b03480).
+  5088:20201029:075656.624 **** Enabled features ****
+  5088:20201029:075656.624 IPv6 support:          YES
+  5088:20201029:075656.624 TLS support:           YES
+  5088:20201029:075656.624 **************************
+  5088:20201029:075656.624 using configuration file: c:\2030515\zabbix\conf\zabbix_agentd.conf
+  5088:20201029:075659.003 agent #0 started [main process]
+  8596:20201029:075659.004 agent #1 started [collector]
+  8612:20201029:075659.004 agent #5 started [active checks #1]
+  8616:20201029:075659.004 agent #6 started [active checks #2]
+  8600:20201029:075659.005 agent #2 started [listener #1]
+  8604:20201029:075659.005 agent #3 started [listener #2]
+  8608:20201029:075659.005 agent #4 started [listener #3]
+  8612:20201029:075700.005 active check configuration update from [zabbix.2030515.ru:53151] started to fail (cannot resolve [zabbix.2030515.ru])
+  8616:20201029:075700.012 active check configuration update from [z.itctl.local:10051] started to fail (cannot resolve [z.itctl.local])
+  8612:20201029:075800.364 active check configuration update from [zabbix.2030515.ru:53151] is working again
+  8616:20201029:075800.434 active check configuration update from [z.itctl.local:10051] is working again
+  4444:20201029:215117.518 Zabbix Agent stopped. Zabbix 5.0.1 (revision c2a0b03480).
+  4624:20201030:075324.224 Starting Zabbix Agent [COMPUTER]. Zabbix 5.0.1 (revision c2a0b03480).
+  4624:20201030:075324.225 **** Enabled features ****
+  4624:20201030:075324.225 IPv6 support:          YES
+  4624:20201030:075324.226 TLS support:           YES
+  4624:20201030:075324.226 **************************
+  4624:20201030:075324.226 using configuration file: c:\2030515\zabbix\conf\zabbix_agentd.conf
+  4624:20201030:075326.880 agent #0 started [main process]
+  8968:20201030:075326.881 agent #1 started [collector]
+  8988:20201030:075326.881 agent #5 started [active checks #1]
+  8996:20201030:075326.881 agent #6 started [active checks #2]
+  8976:20201030:075326.881 agent #2 started [listener #1]
+  8980:20201030:075326.882 agent #3 started [listener #2]
+  8984:20201030:075326.882 agent #4 started [listener #3]
+  8988:20201030:075327.660 active check configuration update from [zabbix.2030515.ru:53151] started to fail (cannot resolve [zabbix.2030515.ru])
+  8996:20201030:075327.662 active check configuration update from [z.itctl.local:10051] started to fail (cannot resolve [z.itctl.local])
+  8988:20201030:075427.151 active check configuration update from [zabbix.2030515.ru:53151] is working again
+  8996:20201030:075431.489 active check configuration update from [z.itctl.local:10051] is working again
+  8996:20201030:191202.983 the system time has been pushed back, adjusting active check schedule
+  8988:20201030:191202.984 the system time has been pushed back, adjusting active check schedule
+  4304:20201030:220639.972 Zabbix Agent stopped. Zabbix 5.0.1 (revision c2a0b03480).
+  5132:20201031:090613.419 Starting Zabbix Agent [COMPUTER]. Zabbix 5.0.1 (revision c2a0b03480).
+  5132:20201031:090613.421 **** Enabled features ****
+  5132:20201031:090613.421 IPv6 support:          YES
+  5132:20201031:090613.421 TLS support:           YES
+  5132:20201031:090613.422 **************************
+  5132:20201031:090613.422 using configuration file: c:\2030515\zabbix\conf\zabbix_agentd.conf
+  5132:20201031:090616.043 agent #0 started [main process]
+  9028:20201031:090616.043 agent #1 started [collector]
+  9048:20201031:090616.043 agent #6 started [active checks #2]
+  9044:20201031:090616.044 agent #5 started [active checks #1]
+  9032:20201031:090616.044 agent #2 started [listener #1]
+  9040:20201031:090616.044 agent #4 started [listener #3]
+  9036:20201031:090616.044 agent #3 started [listener #2]
+  9044:20201031:090616.693 active check configuration update from [zabbix.2030515.ru:53151] started to fail (cannot resolve [zabbix.2030515.ru])
+  9048:20201031:090616.711 active check configuration update from [z.itctl.local:10051] started to fail (cannot resolve [z.itctl.local])
+  9044:20201031:090716.301 active check configuration update from [zabbix.2030515.ru:53151] is working again
+  9048:20201031:090724.060 active check configuration update from [z.itctl.local:10051] is working again
+  4600:20201031:231047.016 Zabbix Agent stopped. Zabbix 5.0.1 (revision c2a0b03480).
+  5260:20201101:111943.284 Starting Zabbix Agent [COMPUTER]. Zabbix 5.0.1 (revision c2a0b03480).
+  5260:20201101:111943.286 **** Enabled features ****
+  5260:20201101:111943.286 IPv6 support:          YES
+  5260:20201101:111943.286 TLS support:           YES
+  5260:20201101:111943.286 **************************
+  5260:20201101:111943.287 using configuration file: c:\2030515\zabbix\conf\zabbix_agentd.conf
+  5260:20201101:111945.940 agent #0 started [main process]
+  8720:20201101:111945.940 agent #1 started [collector]
+  8736:20201101:111945.941 agent #5 started [active checks #1]
+  8740:20201101:111945.941 agent #6 started [active checks #2]
+  8732:20201101:111945.941 agent #4 started [listener #3]
+  8724:20201101:111945.941 agent #2 started [listener #1]
+  8728:20201101:111945.942 agent #3 started [listener #2]
+  8740:20201101:111946.484 active check configuration update from [z.itctl.local:10051] started to fail (cannot resolve [zabbix.2030515.ru])
+  8736:20201101:111946.485 active check configuration update from [zabbix.2030515.ru:53151] started to fail (cannot resolve [zabbix.2030515.ru])
+  8736:20201101:112046.657 active check configuration update from [zabbix.2030515.ru:53151] is working again
+  8740:20201101:112050.468 active check configuration update from [z.itctl.local:10051] is working again
